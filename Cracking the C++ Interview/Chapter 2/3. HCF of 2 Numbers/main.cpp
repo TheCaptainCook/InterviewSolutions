@@ -7,7 +7,7 @@
  * Ex - 16 -    2   2   2   2
  * Ex - 18 -    2   3   3
  * Selecting    -
- * 
+ *
  * HCF - 2  -   2
  *
  *  Written by TheCaptainCook
