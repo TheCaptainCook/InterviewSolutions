@@ -13,22 +13,21 @@ int firstOccurrence(vector<int> &nums, int start, int end, int target)
     }
     else
     {
-        // start < end -> Sunny
+        
         int mid = start + (end - start) / 2;
         if (nums[mid] < target)
         {
-            // find element in the right section of array
+            
             return firstOccurrence(nums, mid + 1, end, target);
         }
         else if (nums[mid] > target)
         {
-            // find element in the left section of array
+            
             return firstOccurrence(nums, start, mid - 1, target);
         }
         else
         {
-            // nums[mid] == target
-            // We dont know whether the current element is the first occurrence or not?
+           
             if (mid == 0)
                 return mid;
             return firstOccurrence(nums, start, mid - 1, target);
@@ -48,22 +47,21 @@ int lastOccurrence(vector<int> &nums, int start, int end, int target)
     }
     else
     {
-        // start < end -> Sunny
+        
         int mid = start + (end - start) / 2;
         if (nums[mid] < target)
         {
-            // find element in the right section of array
+            
             return lastOccurrence(nums, mid + 1, end, target);
         }
         else if (nums[mid] > target)
         {
-            // find element in the left section of array
+            
             return lastOccurrence(nums, start, mid - 1, target);
         }
         else
         {
-            // nums[mid] == target
-            // We dont know whether the current element is the first occurrence or not?
+           
             if ((mid == end) || (mid + 1 <= end && nums[mid] < nums[mid + 1]))
                 return mid;
             return lastOccurrence(nums, mid + 1, end, target);
