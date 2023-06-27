@@ -1,0 +1,11 @@
+1. Searching & Sorting
+2. Recursion & Backtracking
+3. Linkedtist
+4. Stack & Queues
+5. Binary tree
+6. Binary Search tree
+7. Heaps and Hashing
+8. Tries
+9. DP-1 DP-2
+10. Greedy + Devide & Conquer (I)
+10. Graph (DFS(CycLe Detection, Word Boggle) / BFS (Rotten Oranges, word Boggle) / Topological Sorting (Alien Dictionary)
