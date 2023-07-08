@@ -23,7 +23,7 @@ int lps(string& s, int n1, int n2)
 
 int main()
 {
-	string s = "GEEKSFORGEEKS";
+	string s = "MALAYALAM";
 	n = s.size();
 	dp[n][n];
 	memset(dp, -1, sizeof(dp));
